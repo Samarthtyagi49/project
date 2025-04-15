@@ -1,0 +1,12 @@
+energy-optimizer/
+├── data/
+│   └── energy_data.csv         # Downloaded from Kaggle
+├── backend/
+│   └── optimizer.py            # Script to process and optimize data
+├── frontend/
+│   ├── index.html              # Web UI
+│   ├── style.css               # Styling
+│   └── script.js               # Frontend logic (fetch results from backend)
+├── app.py                      # Flask or FastAPI to serve frontend and API
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project description
